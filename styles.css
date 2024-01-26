@@ -1,0 +1,143 @@
+body,
+html {
+  font-family: 'Clear Sans', 'Helvetica Neue', Arial, sans-serif;
+  text-align: center;
+}
+main {
+  width: 450px;
+  margin: 0 auto;
+}
+h3 {
+  font-size: 50px;
+  font-weight: bold;
+  color: #8f7a66;
+}
+
+.score-card {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  color: #8f7a66;
+}
+.above-game {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+}
+.restart-button {
+  background: #8f7a66;
+  border-radius: 3px;
+  padding: 0 20px;
+  text-decoration: none;
+  color: #f9f6f2;
+  height: 40px;
+  line-height: 42px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.how-to-play-link {
+  color: #776e65;
+  font-weight: bold;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.game-intro {
+  color: #776e65;
+  font-family: 'Clear Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 18px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
+  grid-template-rows: repeat(4, 100px);
+  gap: 10px;
+  background-color: #bbada0;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.grid-container > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 40px;
+  border-radius: 3px;
+  box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0),
+    inset 0 0 0 1px rgba(255, 255, 255, 0);
+}
+
+.empty {
+  background: rgba(238, 228, 218, 0.35);
+}
+.x0 {
+  background: rgba(238, 228, 218, 0.35);
+}
+.x2 {
+  background-color: #eee4da;
+  color: #727371;
+}
+
+.x4 {
+  background-color: #ece0ca;
+  color: #727371;
+}
+
+.x8 {
+  background-color: #f4b17a;
+  color: white;
+}
+
+.x16 {
+  background-color: #f59575;
+  color: white;
+}
+
+.x32 {
+  background-color: #f57c5f;
+  color: white;
+}
+
+.x64 {
+  background-color: #f65d3b;
+  color: white;
+}
+
+.x128 {
+  background-color: #edce71;
+  color: white;
+}
+
+.x256 {
+  background-color: #edcc63;
+  color: white;
+}
+
+.x512 {
+  background-color: #edc651;
+  color: white;
+}
+
+.x1024 {
+  background-color: #eec744;
+  color: white;
+}
+
+.x2048 {
+  background-color: #ecc230;
+  color: white;
+}
+
+.x4096 {
+  background-color: #fe3d3d;
+  color: white;
+}
+
+.x8192 {
+  background-color: #ff2020;
+  color: white;
+}
